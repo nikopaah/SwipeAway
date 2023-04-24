@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 1a35349340b53d3439a4371ca463cfb4
+  m_SerializeEntries:
+  - m_GUID: c747d05998e4d2e4f99a9e9fbd45868b
+    m_Address: Assets/Prefabs/red-jelly.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1b070fed42897e7418331d0bd6c5d259
+    m_Address: Assets/Prefabs/blue-jelly.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 3109cbcb2464be9418881fda7ba30ff5, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 20c5f4c5bff36984f97786582afc1513, type: 2}
+    - {fileID: 11400000, guid: 2f2d75dad011e644ebb8a230259e1267, type: 2}
