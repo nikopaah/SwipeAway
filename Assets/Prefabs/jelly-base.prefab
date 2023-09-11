@@ -5017,6 +5017,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jelly: {fileID: 252922254726263439}
+  sounds:
+  - {fileID: 8300000, guid: ddc1bd657c11b3642a9d131de6181451, type: 3}
+  - {fileID: 8300000, guid: 045936ca23683664eb7976bb34d1950c, type: 3}
+  - {fileID: 8300000, guid: 88ca3d85e8b2f104098efc0aed6db9e6, type: 3}
+  - {fileID: 8300000, guid: 295a2c9b2ba06364b8387978502aa8b5, type: 3}
   sizeChange: 0.0025
   throwForce: 0.3
 --- !u!54 &8285227487190009954

@@ -265,8 +265,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jellyPrefabs:
-  - {fileID: 2145205743863840822, guid: c747d05998e4d2e4f99a9e9fbd45868b, type: 3}
   - {fileID: 3222735187942046665, guid: 1b070fed42897e7418331d0bd6c5d259, type: 3}
+  - {fileID: 2145205743863840822, guid: c747d05998e4d2e4f99a9e9fbd45868b, type: 3}
+  soundsPositive:
+  - {fileID: 8300000, guid: ddc1bd657c11b3642a9d131de6181451, type: 3}
+  - {fileID: 8300000, guid: 045936ca23683664eb7976bb34d1950c, type: 3}
+  soundsNegative:
+  - {fileID: 8300000, guid: 88ca3d85e8b2f104098efc0aed6db9e6, type: 3}
+  - {fileID: 8300000, guid: 295a2c9b2ba06364b8387978502aa8b5, type: 3}
+  address: 
   minSpawnDelay: 1
   maxSpawnDelay: 4.25
   minAngle: 50

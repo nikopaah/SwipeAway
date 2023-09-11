@@ -1,4 +1,5 @@
 using UnityEngine;
+using Unity.VisualScripting;
 
 public class Jelly : MonoBehaviour
 {
@@ -7,6 +8,7 @@ public class Jelly : MonoBehaviour
     private Rigidbody jellyRigidbody;
     private Collider jellyCollider;
     private ParticleSystem juiceParticleEffect;
+    private AudioSource juiceAudio;
 
     public float sizeChange = 0.0025f;
 
@@ -17,6 +19,7 @@ public class Jelly : MonoBehaviour
     {
         jellyCollider = GetComponent<Collider>();
         juiceParticleEffect = GetComponentInChildren<ParticleSystem>();
+        juiceAudio = GetComponent<AudioSource>();
     }
 
     private void Update() // Runs when the script is enable
@@ -41,7 +44,7 @@ public class Jelly : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player")) {
-            print("bateeu");
+            print("got itt");
             Blade blade = other.GetComponent<Blade>();
             CollectJelly(blade.direction, blade.transform.position, blade.sliceForce, blade.timeInterval);
         }
